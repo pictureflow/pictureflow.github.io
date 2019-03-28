@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+<head>
 	<meta charset="utf-8">
 	<title>Pictureflow</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,36 +8,117 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-	<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200italic,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
 </head>
 
 <body>
-	<div id="wrap">
-	<a href="/index.html" class="inactiveLink"><img src="/images/logo.png" id="logoProjectPage"></a>
-	<div class="container clear-top" id="site-container">
-		<div class ="row justify-content-center">
-			<div class = "col-md-9">
-    			<h1 id="coming-soon">Coming soon</h1>
+	<nav class="navbar navbar-light navbar-expand-lg fixed-top">
+    <a href="/" class="navbar-brand d-flex w-50 mr-auto">
+    	<img src="/images/logo.png" id="logoProjectPage">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="main-nav" >
+        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+            <li class="nav-item">
+                <a href="/pricing" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://dl.devmate.com/com.frankvanboheemen.pictureflow/Pictureflow.dmg" class="button">Download Pictureflow</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-<h5 id="we-are-working-on-our-website-and-we-will-launch-it-very-soon">We are working on our website and we will launch it very soon</h5>
+	<section id="header">
+	<div class="container">
+<div class="row">
+	<div class="col-lg-5" style="padding-top:100px">
+		<h1>Streamline your photo workflow</h1>
+		<h4>Save a lot of your time by only importing your winning photos and getting rid of your bad photos directly from your camera.</h4>
+		<a href="https://dl.devmate.com/com.frankvanboheemen.pictureflow/Pictureflow.dmg" class="button">Download Pictureflow</a>
+	</div>
+</div>
+</section>
 
-<p><img src="images/cactus.png" alt="Coming soon" id="cactus" /></p>
+	<section id="about">
+		<div class="container" id="main-content">
+			<h1 id="sort-your-photos-before-importing">Sort your photos before importing</h1>
 
-<div style="text-align: center">
-<h4><a href="/privacy-statement">Privacy statement</a></h4>
+<div class="row justify-content-center">
+	<div class="col-sm-6">
+		<h4>It’s exciting coming home from a shoot, ready to start editing your photos. Pictureflow keeps you in that mindset by allowing you to quickly see previews of your photos, star your keepers and remove bad shots or duplicates.</h4>
+		<h4>Little time spend sorting your photos can speed up your workflow a lot. Pictureflow allows you to do this with ease.</h4>
+	</div>
+	
 </div>
 
+<div class="row justify-content-center text-center" style="margin-top:120px;">
+	<div class="col-md-4">
+		<img src="images/previews.png" style="width:56px; margin-bottom:24px" />
+		<h5>Quick previews, straight from your camera</h5>
+		<p>Quickly browse through large previews of your photos so you can make the best selection.</p>
+	</div>
+	<div class="col-md-4 offset-md-1">
+		<img src="images/culling.png" style="width:56px; margin-bottom:24px" />
+		<h5>Easy culling</h5>
+		<p>Designate a photo as a ‘keeper’ or as ‘trash’ in a straightforward way.</p>
+	</div>
+</div>
+<div class="row justify-content-center text-center" style="margin-top:60px;">
+	<div class="col-md-4">
+		<img src="images/progress.png" style="width:50px;margin-bottom:24px" />
+		<h5>Overview of your progress</h5>
+		<p>Always have insight into your progress by seeing the amount of photos that are 'to do', 'keepers' and 'trashed'.</p>
+	</div>
+	<div class="col-md-4 offset-md-1">
+		<img src="images/saving.png" style="width:50px; margin-bottom:24px" />
+		<h5>Stay in the flow</h5>
+		<p>Pictureflow saves your keepers, as well as your progress, in a dedicated flow-file. Continue your flow exactly where you left off at a later moment.</p>
+	</div>
+</div>
+<div class="row justify-content-center text-center" style="margin-top:60px;">
+	<div class="col-md-4">
+		<img src="images/export.png" style="width:50px; margin-bottom:24px" />
+		<h5>Export your photos</h5>
+		<p>Export your keepers by using the export functionality. Or simply drag them to a folder or your favourite editing software.</p>
+	</div>
+</div>
+
+		</div>
+	</section>
+	
+<footer>
+	<div class ="container">
+		<div id="contact" class="text-center">
+			<h2>Want to get in touch?</h2>
+			<p>Do you have questions or feedback? We'd love to hear from you!</p>
+			<a href="mailto:pictureflowapp@gmail.com" class="button">Mail us</a>
+		</div>
+		<div class="row">
+			<div class="col">
+				<a href="/privacy-statement">Privacy statement</a>
+			</div>
+			<div class="col text-right">
+				<p>© 2019 Frank van Boheemen. All Rights Reserved.</p>
 			</div>
 		</div>
 	</div>
 </div>
-		
-<footer>
-		<div class ="container">
-		<p>© 2019 Frank van Boheemen. All Rights Reserved.</p>
-	</div>
-</div>
 </footer>
 </body>
+
+<script type="text/javascript">
+	$(window).scroll(function() {
+		var scroll = $(window).scrollTop();
+		if (scroll >= 10) {
+			$(".navbar").addClass("shadow");
+		} else {
+			$(".navbar").removeClass("shadow");
+
+		}
+	});
+</script>
 </html>

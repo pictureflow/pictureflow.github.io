@@ -29,7 +29,7 @@ TABLE OF CONTENTS:
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-/* line 38, ../_scss/style.scss */
+/* line 40, ../_scss/style.scss */
 html,
 body,
 button,
@@ -37,61 +37,70 @@ input,
 select,
 textarea {
   color: #000;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open+Sans', sans-serif;
   line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
-/* line 49, ../_scss/style.scss */
+/* line 53, ../_scss/style.scss */
 h1, h2, h3, h4 {
   margin: 1.414rem 0 .5rem;
   line-height: 1.42;
 }
 
-/* line 54, ../_scss/style.scss */
+/* line 58, ../_scss/style.scss */
 h1 {
   color: #4D6477;
   margin-top: 0;
   margin-bottom: 1.5rem;
-  font-weight: 700;
-  font-size: 3.75rem;
+  font-weight: 600;
+  font-size: 2.8rem;
 }
 
-/* line 62, ../_scss/style.scss */
+/* line 66, ../_scss/style.scss */
+p {
+  font-weight: 300;
+}
+
+/* line 70, ../_scss/style.scss */
 h2 {
   color: #4D6477;
   font-weight: 700;
   font-size: 2.4rem;
+  margin-bottom: 1.5rem;
 }
 
-/* line 68, ../_scss/style.scss */
+/* line 77, ../_scss/style.scss */
 h3 {
   font-size: 1.999rem;
 }
 
-/* line 72, ../_scss/style.scss */
+/* line 81, ../_scss/style.scss */
 h4 {
-  font-weight: 700;
-  color: #4D6477;
-  font-size: 1.2rem;
+  font-weight: 300;
+  font-size: 1.25rem;
 }
 
-/* line 78, ../_scss/style.scss */
+/* line 86, ../_scss/style.scss */
 h5 {
+  font-weight: 700;
+  color: #749CB2;
   font-size: 1rem;
   display: block;
 }
 
-/* line 83, ../_scss/style.scss */
+/* line 93, ../_scss/style.scss */
 h6 {
   font-size: .88rem;
 }
 
-/* line 87, ../_scss/style.scss */
+/* line 97, ../_scss/style.scss */
 small {
   font-size: .707em;
 }
 
-/* line 91, ../_scss/style.scss */
+/* line 101, ../_scss/style.scss */
 dfn,
 cite,
 em,
@@ -99,17 +108,17 @@ i {
   font-style: italic;
 }
 
-/* line 99, ../_scss/style.scss */
+/* line 109, ../_scss/style.scss */
 .projectPost {
   margin-bottom: 40px !important;
 }
 
-/* line 103, ../_scss/style.scss */
+/* line 113, ../_scss/style.scss */
 strong {
   font-weight: 700;
 }
 
-/* line 107, ../_scss/style.scss */
+/* line 117, ../_scss/style.scss */
 blockquote p {
   font-size: 1.5rem;
   font-weight: 200;
@@ -119,13 +128,13 @@ blockquote p {
   text-align: center;
 }
 
-/* line 116, ../_scss/style.scss */
+/* line 126, ../_scss/style.scss */
 a {
   color: #2E789D;
   font-weight: 700;
 }
 
-/* line 121, ../_scss/style.scss */
+/* line 131, ../_scss/style.scss */
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
@@ -133,17 +142,13 @@ a:link, a:visited, a:hover, a:active {
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
-/* line 129, ../_scss/style.scss */
+/* line 139, ../_scss/style.scss */
 html, body {
   height: 100%;
+  background-color: #4D6477;
 }
 
-/* line 133, ../_scss/style.scss */
-#wrap {
-  min-height: 100%;
-}
-
-/* line 137, ../_scss/style.scss */
+/* line 144, ../_scss/style.scss */
 #logoProjectPage {
   position: absolute;
   left: 20px;
@@ -152,61 +157,133 @@ html, body {
   z-index: 150;
 }
 
+/* line 152, ../_scss/style.scss */
+section {
+  background-color: #fff;
+  padding: 32px 0 48px;
+}
+
+/* line 158, ../_scss/style.scss */
+a.button {
+  position: relative;
+  top: 15px;
+  background-color: #2E789D;
+  height: 42px;
+  padding: 10px 16px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/* line 171, ../_scss/style.scss */
+a.button:hover {
+  background-color: #266381;
+}
+
+/* line 175, ../_scss/style.scss */
+a.button:active {
+  background-color: #225873;
+}
+
 /*--------------------------------------------------------------
-# Site container
+# Navigation
 --------------------------------------------------------------*/
-/* line 149, ../_scss/style.scss */
-#site-container {
-  padding: 80px 20px 0px 20px;
-  overflow: auto;
-  padding-bottom: 100px;
+/* line 184, ../_scss/style.scss */
+.nav-link {
+  color: #2E789D !important;
+  display: inline-block;
+  text-align: center;
+  padding: 16px 0;
+  margin-right: 24px;
+  font-weight: 600;
 }
 
-/* line 155, ../_scss/style.scss */
-#right-column {
-  height: 100%;
+/* line 193, ../_scss/style.scss */
+.nav-link:hover {
+  color: #266381 !important;
 }
 
-/* line 160, ../_scss/style.scss */
-#site-container h1 {
-  margin-top: 100px;
+/* line 197, ../_scss/style.scss */
+.nav-link:active {
+  color: #225873 !important;
+}
+
+/* line 201, ../_scss/style.scss */
+#logoProjectPage {
+  position: absolute;
+  left: 20px;
+  top: 16px;
+  width: 160px;
+  z-index: 150;
+}
+
+/* line 209, ../_scss/style.scss */
+.shadow {
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1000px) {
+  /* line 215, ../_scss/style.scss */
+  .navbar {
+    padding: 1rem 2rem !important;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  /* line 220, ../_scss/style.scss */
+  .navbar .nav-item .button {
+    position: relative;
+    top: 0px;
+  }
+}
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+/* line 233, ../_scss/style.scss */
+section#header {
+  padding-top: 160px;
+  height: 840px;
+  background-image: url("/images/header-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+/* line 245, ../_scss/style.scss */
+#main-content h1 {
   text-align: center;
 }
 
-/* line 165, ../_scss/style.scss */
-#site-container h2 {
-  margin-bottom: 20px;
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+/* line 252, ../_scss/style.scss */
+#contact {
+  margin-bottom: 48px;
 }
-
-/* line 169, ../_scss/style.scss */
-#site-container h5 {
-  text-align: center;
-}
-
-/* line 174, ../_scss/style.scss */
-#site-container p {
-  margin-bottom: 2rem;
-}
-
-/* line 178, ../_scss/style.scss */
-#cactus {
-  width: 80%;
-  margin: 80px 10%;
+/* line 255, ../_scss/style.scss */
+#contact h2, #contact p {
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-/* line 187, ../_scss/style.scss */
+/* line 263, ../_scss/style.scss */
 footer {
-  height: 40px;
-  margin-top: -40px;
-  clear: both;
+  background-color: #4D6477;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  background-image: url("/images/pattern.svg");
+  background-repeat: repeat;
+  background-size: 160px;
 }
 
-/*--------------------------------------------------------------
-# Layout - single project
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Responsive
---------------------------------------------------------------*/
+/* line 272, ../_scss/style.scss */
+footer a, footer p {
+  color: #fff;
+}
