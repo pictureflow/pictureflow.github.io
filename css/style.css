@@ -250,22 +250,39 @@ section#header {
   background-size: cover;
 }
 
+@media (min-width: 1455px) {
+  /* line 242, ../_scss/style.scss */
+  section#header {
+    background-size: contain;
+    background-position: center;
+  }
+}
 /*--------------------------------------------------------------
-# Contact
+# Content
 --------------------------------------------------------------*/
-/* line 245, ../_scss/style.scss */
+/* line 252, ../_scss/style.scss */
 #main-content h1 {
   text-align: center;
+}
+
+/* line 256, ../_scss/style.scss */
+.detail-section, .detail-column {
+  margin-top: 60px;
+}
+/* line 258, ../_scss/style.scss */
+.detail-section img, .detail-column img {
+  width: 56px;
+  margin-bottom: 24px;
 }
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-/* line 252, ../_scss/style.scss */
+/* line 267, ../_scss/style.scss */
 #contact {
   margin-bottom: 48px;
 }
-/* line 255, ../_scss/style.scss */
+/* line 270, ../_scss/style.scss */
 #contact h2, #contact p {
   color: #fff;
 }
@@ -273,7 +290,7 @@ section#header {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-/* line 263, ../_scss/style.scss */
+/* line 278, ../_scss/style.scss */
 footer {
   background-color: #4D6477;
   padding-top: 16px;
@@ -283,7 +300,7 @@ footer {
   background-size: 160px;
 }
 
-/* line 272, ../_scss/style.scss */
+/* line 287, ../_scss/style.scss */
 footer a, footer p {
   color: #fff;
 }
