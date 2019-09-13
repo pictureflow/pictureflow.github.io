@@ -10,10 +10,12 @@
         <description>
           <![CDATA[
             <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li>
-              <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li>
-              <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li>
+              <li>The layout of the detail menu has been updated!</li>
+              <li>It is now possible to add keywords to your photos.</li>
+              <li>Easily clear metadata fields by clicking on the ‘x’ that appears when hovering.</li>
+              <li>Metadata can now also be edited in bulk. All editable metadata fields are shown when multiple photos are selected.</li>
+              <li>The process of creating a flow from a folder has been simplified and is therefore a lot quicker.</li>
+              <li>The update server has been migrated.</li>
             </ul>
           ]]>
         </description>
