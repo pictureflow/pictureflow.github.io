@@ -18,7 +18,7 @@
           ]]>
         </description>
         <pubDate>Fri, 13 Sep 2019 07:42:25 +0000</pubDate>
-        <enclosure url="https://pictureflow.app/downloads/pictureflow.dmg" sparkle:version="1.4.4" length="1623481" type="application/octet-stream" sparkle:dsaSignature="BAFJW4B6B1K1JyW30nbkBwainOzrN6EQuAh" />
+        <enclosure url="https://pictureflow.app/downloads/pictureflow.zip" sparkle:version="1.4.4" length="1623481" type="application/octet-stream" sparkle:dsaSignature="BAFJW4B6B1K1JyW30nbkBwainOzrN6EQuAh" />
       </item>
   </channel>
 </rss>
