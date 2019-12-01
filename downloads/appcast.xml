@@ -9,6 +9,24 @@
         <title>Version 1.4.5</title>
         <description>
           <![CDATA[
+          <h3>- This is mainly a technical update. Different aspects of the application have been refined to seriously improve the speed the app operates in, such as:</h3>
+            <ul>
+              <li>Smarter memory management</li>
+              <li>New way of discovering file changes outside of Pictureflow</li>
+              <li>Pictureflow resizes thumbnails faster when the size of the window will change</li>
+              <li>Updating metadata in JPEGs will now work asynchronously</li>
+              <li>Process indicators (spinners) have been added in multiple locations, helping you to understand when certain processes are still being processed.</li>
+              <li>The update server has been migrated.</li>
+            </ul>
+          ]]>
+        </description>
+        <pubDate>Fri, 13 Sep 2019 07:42:25 +0000</pubDate>
+        <enclosure url="https://pictureflow.app/downloads/pictureflow.dmg" sparkle:version="1.4.5" length="1623481" type="application/octet-stream" sparkle:dsaSignature="BAFJW4B6B1K1JyW30nbkBwainOzrN6EQuAh" />
+      </item>
+      <item>
+        <title>Version 1.4.4</title>
+        <description>
+          <![CDATA[
             <ul>
               <li>The layout of the detail menu has been updated!</li>
               <li>It is now possible to add keywords to your photos.</li>
